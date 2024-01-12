@@ -20,10 +20,10 @@ seo:
 
 ## Administrivia
 - Instructor: Phillip Kirlin
-- Office hours: Mondays 1-2, Tuesdays 12:30-2, Wednesdays 3-4:30, Thursdays 2-3.  Also available by appointment and over Slack.
-- [Canvas page](https://rhodes.instructure.com/courses/5889): Use for grades and online assignment 
+- Office hours: Mondays 10-11, Tuesdays 12:30-2, Wednesdays 11-12, Thursdays 2-3:30.  Also available by appointment.
+- [Canvas page](https://rhodes.instructure.com/courses/6585): Use for grades and online assignment 
 submissions. 
-- [Syllabus](syllabus/syllabus-ai-f23.pdf) and [additional policies](syllabus/additional-policies.pdf).
+- [Syllabus](syllabus/syllabus-241-s24.pdf) and [additional policies](syllabus/additional-policies.pdf).
 
 ## Resources
 
