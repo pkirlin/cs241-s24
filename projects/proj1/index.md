@@ -7,7 +7,7 @@ parent: Projects
 
 
 # CS 241 Project 1: Large Integers
-
+{:toc}
 
 
 **Reminder:** Everything in this project must be your own work.  If you include any code that was not invented by you, you must give a citation for 
