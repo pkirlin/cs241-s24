@@ -7,7 +7,6 @@ parent: Projects
 
 
 # CS 241 Project 1: Large Integers
-{: .no_toc }
 
 
 
