@@ -5,8 +5,9 @@ parent: Projects
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-
 # CS 241 Project 1: Large Integers
+
+- CS 241 Project 1: Large Integers
 {:toc}
 
 
