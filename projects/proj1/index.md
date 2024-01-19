@@ -22,8 +22,8 @@ it.
 ## Introduction
 There are four different built-in (primitive) Java data types that can hold integers.  They are `byte`, `short`, `int`, and `long`, and take up 1, 
 2, 4, and 8 bytes of storage, respectively.  Because each of these used a fixed number of bytes, there are only a certain number of possible 
-integers each type can represent.  For instance, the smallest integer an `int` can represent is -2^31^, or -2,147,483,648, whereas the largest is 
-2^31^-1, or 2,147,483,647.
+integers each type can represent.  For instance, the smallest integer an `int` can represent is $$-2^{31}$$, or -2,147,483,648, whereas the largest is 
+$$2^{31}-1$$, or 2,147,483,647.
 
 When you exceed the limits of what an `int` can handle, Java will not realize it.  Consider the following code:
 ```java
