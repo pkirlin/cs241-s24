@@ -5,11 +5,11 @@ parent: Projects
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-# CS 241 Project 1: Large Integers
+# CS 142 Project 6: Large Integers
+{: .no_toc }
 
-- CS 241 Project 1: Large Integers
+1. TOC
 {:toc}
-
 
 **Reminder:** Everything in this project must be your own work.  If you include any code that was not invented by you, you must give a citation for 
 it.
