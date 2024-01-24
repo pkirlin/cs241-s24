@@ -20,6 +20,7 @@ Thu, Jan 18
 
 Tue, Jan 23
 : **List ADT <i>(Zoom class)</i>**  
+  [[ Homework 1, due Feb 1 ]](homework/hw1/hw1.pdf)  
   [[ 9:30 recording ]](https://rhodes.box.com/s/7schl5w7ylb4dj2mptkaxeme8k6w1bdu)
   [[ 9:30 whiteboard ]](lectures/list-adt/day1-whiteboard-930.pdf)
   [[ 9:30 code ]](https://rhodes.box.com/s/reozr6kuqg8rlualulb0xphm2pj5srnn)  
