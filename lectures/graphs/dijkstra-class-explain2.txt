@@ -1,0 +1,77 @@
+Vertices: [a, b, c, d, e]
+Edges:
+a -> c: 3
+a -> b: 7
+b -> e: 7
+b -> d: 2
+c -> b: 1
+c -> d: 2
+d -> e: 4
+
+Removing vertex a from the priority queue and visiting it.
+
+  Considering edge (u, v) = a -> b
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 0 + 7 = 7
+    Updating dist[b] from 999999 to 7 (adding/updating b in the pri queue also).
+    Updating prev[b] from undefined to a.
+
+  Considering edge (u, v) = a -> c
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 0 + 3 = 3
+    Updating dist[c] from 999999 to 3 (adding/updating c in the pri queue also).
+    Updating prev[c] from undefined to a.
+
+Removing vertex c from the priority queue and visiting it.
+
+  Considering edge (u, v) = c -> b
+  Old distance (dist[v]) = 7
+  New distance (alt = dist[u] + weight(u, v)) = 3 + 1 = 4
+    Updating dist[b] from 7 to 4 (adding/updating b in the pri queue also).
+    Updating prev[b] from a to c.
+
+  Considering edge (u, v) = c -> d
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 3 + 2 = 5
+    Updating dist[d] from 999999 to 5 (adding/updating d in the pri queue also).
+    Updating prev[d] from undefined to c.
+
+Removing vertex b from the priority queue and visiting it.
+
+  Considering edge (u, v) = b -> d
+  Old distance (dist[v]) = 5
+  New distance (alt = dist[u] + weight(u, v)) = 4 + 2 = 6
+    No update needed; alt is not less than old distance.
+
+  Considering edge (u, v) = b -> e
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 4 + 7 = 11
+    Updating dist[e] from 999999 to 11 (adding/updating e in the pri queue also).
+    Updating prev[e] from undefined to b.
+
+Removing vertex d from the priority queue and visiting it.
+
+  Considering edge (u, v) = d -> e
+  Old distance (dist[v]) = 11
+  New distance (alt = dist[u] + weight(u, v)) = 5 + 4 = 9
+    Updating dist[e] from 11 to 9 (adding/updating e in the pri queue also).
+    Updating prev[e] from b to d.
+
+Removing vertex e from the priority queue and visiting it.
+
+Shortest path is: a c d e 
+Distance is: 9
+
+Final dist map:
+a: 0
+b: 4
+c: 3
+d: 5
+e: 9
+
+Final prev map:
+a: undefined
+b: c
+c: a
+d: c
+e: d

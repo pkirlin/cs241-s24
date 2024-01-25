@@ -24,36 +24,63 @@ public class RArrayList implements RList {
     }
 
     @Override
-    public int size() {
-        return 0;
+    public int size() { // return size of RArrayList from the user's perspective
+        return size;
     }
 
     @Override
     public int get(int pos) {
-        return 0;
+        return data[pos];
     }
 
     @Override
     public void set(int pos, int value) {
-
+        data[pos] = value;
     }
 
     @Override
     public void append(int value) {  // append should add an element to the end of the list
 
         // check to see if there is space in the data array for our new value
-        if (size < data.length) {
+        if (size < data.length) {  // size < capacity
             data[size] = value;
             size++;
         }
         else {
             // expand the array to make more empty slots
+            expand();
             // add our new value into the next available empty slot
+            data[size] = value;
+            size++;
         }
     }
 
     @Override
-    public void prepend(int value) {
+    public void prepend(int value) {  // adds an element to beginning of the list (always index 0)
+        // check to see if there is space in the data array for our new value
+        if (size == data.length) {  // size == capacity --> out of room
+            expand();
+        }
+        // once we get here, we know we have room for our new element
+        // shift each element one spot to the right
+        for (int i = size-1; i >= 0; i--) {   // orig: i = 0; i < size
+            data[i + 1] = data[i];
+        }
+        // add our new element to index 0
+        data[0] = value;
+        size++;
+    }
+
+    // Expand will make a new array of a bigger size than the existing one,
+    // copy everything from the old array into the new array
+    private void expand() {
+        //System.out.println("Expanding from capacity " + data.length + " to " + (data.length+3));
+        int[] newdata = new int[data.length + 3]; // make array of same size as old one, plus 3 more spots
+        // copy everything from data -> newdata
+        for (int i = 0; i < data.length; i++) {
+            newdata[i] = data[i];
+        }
+        data = newdata;
 
     }
 }

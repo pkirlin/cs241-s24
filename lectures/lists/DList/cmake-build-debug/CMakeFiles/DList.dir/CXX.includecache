@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pkirlin/Dropbox/courses/cs3/s19/lectures/lists/DList/DList.cpp
+DList.h
+/Users/pkirlin/Dropbox/courses/cs3/s19/lectures/lists/DList/DList.h
+iostream
+-
+
+/Users/pkirlin/Dropbox/courses/cs3/s19/lectures/lists/DList/DList.h
+iostream
+-
+
+/Users/pkirlin/Dropbox/courses/cs3/s19/lectures/lists/DList/main.cpp
+iostream
+-
+DList.h
+/Users/pkirlin/Dropbox/courses/cs3/s19/lectures/lists/DList/DList.h
+

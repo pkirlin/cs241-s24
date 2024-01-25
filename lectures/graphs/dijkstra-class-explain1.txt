@@ -1,0 +1,94 @@
+Vertices: [a, b, c, d, e, f]
+Edges:
+a -> c: 4
+a -> b: 2
+b -> e: 2
+b -> c: 1
+b -> d: 4
+c -> e: 3
+d -> f: 2
+e -> d: 3
+e -> f: 2
+
+Removing vertex a from the priority queue and visiting it.
+
+  Considering edge (u, v) = a -> b
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 0 + 2 = 2
+    Updating dist[b] from 999999 to 2 (adding/updating b in the pri queue also).
+    Updating prev[b] from undefined to a.
+
+  Considering edge (u, v) = a -> c
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 0 + 4 = 4
+    Updating dist[c] from 999999 to 4 (adding/updating c in the pri queue also).
+    Updating prev[c] from undefined to a.
+
+Removing vertex b from the priority queue and visiting it.
+
+  Considering edge (u, v) = b -> c
+  Old distance (dist[v]) = 4
+  New distance (alt = dist[u] + weight(u, v)) = 2 + 1 = 3
+    Updating dist[c] from 4 to 3 (adding/updating c in the pri queue also).
+    Updating prev[c] from a to b.
+
+  Considering edge (u, v) = b -> d
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 2 + 4 = 6
+    Updating dist[d] from 999999 to 6 (adding/updating d in the pri queue also).
+    Updating prev[d] from undefined to b.
+
+  Considering edge (u, v) = b -> e
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 2 + 2 = 4
+    Updating dist[e] from 999999 to 4 (adding/updating e in the pri queue also).
+    Updating prev[e] from undefined to b.
+
+Removing vertex c from the priority queue and visiting it.
+
+  Considering edge (u, v) = c -> e
+  Old distance (dist[v]) = 4
+  New distance (alt = dist[u] + weight(u, v)) = 3 + 3 = 6
+    No update needed; alt is not less than old distance.
+
+Removing vertex e from the priority queue and visiting it.
+
+  Considering edge (u, v) = e -> d
+  Old distance (dist[v]) = 6
+  New distance (alt = dist[u] + weight(u, v)) = 4 + 3 = 7
+    No update needed; alt is not less than old distance.
+
+  Considering edge (u, v) = e -> f
+  Old distance (dist[v]) = 999999
+  New distance (alt = dist[u] + weight(u, v)) = 4 + 2 = 6
+    Updating dist[f] from 999999 to 6 (adding/updating f in the pri queue also).
+    Updating prev[f] from undefined to e.
+
+Removing vertex d from the priority queue and visiting it.
+
+  Considering edge (u, v) = d -> f
+  Old distance (dist[v]) = 6
+  New distance (alt = dist[u] + weight(u, v)) = 6 + 2 = 8
+    No update needed; alt is not less than old distance.
+
+Removing vertex f from the priority queue and visiting it.
+
+Shortest path is: a b e f 
+Distance is: 6
+
+Final dist map:
+a: 0
+b: 2
+c: 3
+d: 6
+e: 4
+f: 6
+
+Final prev map:
+a: undefined
+b: a
+c: b
+d: b
+e: b
+f: e
+

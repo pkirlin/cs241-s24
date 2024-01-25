@@ -27,17 +27,17 @@ public class RArrayList implements RList {
 
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 
     @Override
     public int get(int pos) {
-        return 0;
+        return data[pos];
     }
 
     @Override
     public void set(int pos, int value) {
-
+        data[pos] = value;
     }
 
     @Override
@@ -50,15 +50,36 @@ public class RArrayList implements RList {
         }
         else {
             // we are out of space!
-            // we need to make a new array that is bigger than the old data array
-            // copy data array into the new array
-            // now we have space for the new value
-            System.out.println("List is out of space, ignoring new element.");
+            expand();
+            data[size] = value;
+            // increase the size of the list from the user's perspective
+            size++;
         }
     }
 
     @Override
     public void prepend(int value) {
+        if (size == data.length) { // true when we need to expand the array
+            expand();
+        }
+        // now we know we have enough room for the new element
+        for (int i = size-1; i >= 0; i--) {  ///for (int i = 0; i < size; i++) {
+            data[i + 1] = data[i];
+        }
+        // put new element at beginning
+        data[0] = value;
+        size++;
+    }
 
+    // Expand will copy all the data in the data[] array into a new array of
+    // a larger size.
+    private void expand() {
+        System.out.println("Expanding from capacity " + data.length + " to new capacity " + (data.length+3));
+        int[] newdata = new int[data.length + 3];   // makes space for same size as old data, plus 3 more spots
+        // copy all of the data into newdata
+        for (int i = 0; i < data.length; i++) {
+            newdata[i] = data[i];
+        }
+        data = newdata;
     }
 }

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc6a78e1-0847-437f-9b05-5a306d56d5d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iZKsAkNMQuL8luv6onyXKmN1U1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MapTester">
+    <configuration name="MapTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapTester" />
+      <module name="mapBrainstorm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetTester" />
+      <module name="mapBrainstorm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MapTester" />
+        <item itemvalue="Application.SetTester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc6a78e1-0847-437f-9b05-5a306d56d5d2" name="Default Changelist" comment="" />
+      <created>1602109878051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602109878051</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1255" height="262" key="GridCell.Tab.0.bottom" timestamp="1602609800059">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1226" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602125015087" />
+    <state width="1255" height="262" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1602609800059" />
+    <state width="1255" height="262" key="GridCell.Tab.0.center" timestamp="1602609800059">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1226" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602125015086" />
+    <state width="1255" height="262" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1602609800059" />
+    <state width="1255" height="262" key="GridCell.Tab.0.left" timestamp="1602609800059">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1226" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602125015086" />
+    <state width="1255" height="262" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1602609800059" />
+    <state width="1255" height="262" key="GridCell.Tab.0.right" timestamp="1602609800059">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1226" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602125015087" />
+    <state width="1255" height="262" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1602609800059" />
+    <state x="243" y="129" key="new project wizard" timestamp="1602598032797">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="243" y="129" key="new project wizard/0.23.2560.1417@0.23.2560.1417" timestamp="1602598032797" />
+  </component>
+</project>

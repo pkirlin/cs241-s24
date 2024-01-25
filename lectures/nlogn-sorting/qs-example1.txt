@@ -1,0 +1,33 @@
+Calling partition with [40, 10, 30, 12, 50, 90, 20, 60, 57, 34, 55] 0 10  partition chosen is 40
+Swap pos 4 9
+Swap pos 5 6
+Move partition into place.  Swap first element= 0 with with rightpos= 5
+After partition, x is  [20, 10, 30, 12, 34, 40, 90, 60, 57, 50, 55]
+
+Calling partition with [20, 10, 30, 12, 34, 40, 90, 60, 57, 50, 55] 0 4  partition chosen is 20
+Swap pos 2 3
+Move partition into place.  Swap first element= 0 with with rightpos= 2
+After partition, x is  [12, 10, 20, 30, 34, 40, 90, 60, 57, 50, 55]
+
+Calling partition with [12, 10, 20, 30, 34, 40, 90, 60, 57, 50, 55] 0 1  partition chosen is 12
+Move partition into place.  Swap first element= 0 with with rightpos= 1
+After partition, x is  [10, 12, 20, 30, 34, 40, 90, 60, 57, 50, 55]
+
+Calling partition with [10, 12, 20, 30, 34, 40, 90, 60, 57, 50, 55] 3 4  partition chosen is 30
+Move partition into place.  Swap first element= 3 with with rightpos= 3
+After partition, x is  [10, 12, 20, 30, 34, 40, 90, 60, 57, 50, 55]
+
+Calling partition with [10, 12, 20, 30, 34, 40, 90, 60, 57, 50, 55] 6 10  partition chosen is 90
+Move partition into place.  Swap first element= 6 with with rightpos= 10
+After partition, x is  [10, 12, 20, 30, 34, 40, 55, 60, 57, 50, 90]
+
+Calling partition with [10, 12, 20, 30, 34, 40, 55, 60, 57, 50, 90] 6 9  partition chosen is 55
+Swap pos 7 9
+Move partition into place.  Swap first element= 6 with with rightpos= 7
+After partition, x is  [10, 12, 20, 30, 34, 40, 50, 55, 57, 60, 90]
+
+Calling partition with [10, 12, 20, 30, 34, 40, 50, 55, 57, 60, 90] 8 9  partition chosen is 57
+Move partition into place.  Swap first element= 8 with with rightpos= 8
+After partition, x is  [10, 12, 20, 30, 34, 40, 50, 55, 57, 60, 90]
+final x [10, 12, 20, 30, 34, 40, 50, 55, 57, 60, 90]
+

@@ -1,0 +1,33 @@
+Calling partition with [48, 25, 70, 95, 9, 16, 61, 39, 56, 18, 83] 0 10  partition chosen is 48
+Swap pos 2 9
+Swap pos 3 7
+Move partition into place.  Swap first element= 0 with with rightpos= 5
+After partition, x is  [16, 25, 18, 39, 9, 48, 61, 95, 56, 70, 83]
+
+Calling partition with [16, 25, 18, 39, 9, 48, 61, 95, 56, 70, 83] 0 4  partition chosen is 16
+Swap pos 1 4
+Move partition into place.  Swap first element= 0 with with rightpos= 1
+After partition, x is  [9, 16, 18, 39, 25, 48, 61, 95, 56, 70, 83]
+
+Calling partition with [9, 16, 18, 39, 25, 48, 61, 95, 56, 70, 83] 2 4  partition chosen is 18
+Move partition into place.  Swap first element= 2 with with rightpos= 2
+After partition, x is  [9, 16, 18, 39, 25, 48, 61, 95, 56, 70, 83]
+
+Calling partition with [9, 16, 18, 39, 25, 48, 61, 95, 56, 70, 83] 3 4  partition chosen is 39
+Move partition into place.  Swap first element= 3 with with rightpos= 4
+After partition, x is  [9, 16, 18, 25, 39, 48, 61, 95, 56, 70, 83]
+
+Calling partition with [9, 16, 18, 25, 39, 48, 61, 95, 56, 70, 83] 6 10  partition chosen is 61
+Swap pos 7 8
+Move partition into place.  Swap first element= 6 with with rightpos= 7
+After partition, x is  [9, 16, 18, 25, 39, 48, 56, 61, 95, 70, 83]
+
+Calling partition with [9, 16, 18, 25, 39, 48, 56, 61, 95, 70, 83] 8 10  partition chosen is 95
+Move partition into place.  Swap first element= 8 with with rightpos= 10
+After partition, x is  [9, 16, 18, 25, 39, 48, 56, 61, 83, 70, 95]
+
+Calling partition with [9, 16, 18, 25, 39, 48, 56, 61, 83, 70, 95] 8 9  partition chosen is 83
+Move partition into place.  Swap first element= 8 with with rightpos= 9
+After partition, x is  [9, 16, 18, 25, 39, 48, 56, 61, 70, 83, 95]
+final array [9, 16, 18, 25, 39, 48, 56, 61, 70, 83, 95]
+

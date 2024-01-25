@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pkirlin/Dropbox/courses/cs3/s19/lectures/trees/compareHashTree/main.cpp
+iostream
+-
+map
+-
+unordered_map
+-
+cstdlib
+-
+ctime
+-
+chrono
+-
+vector
+-
+

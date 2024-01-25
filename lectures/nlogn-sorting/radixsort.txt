@@ -1,0 +1,53 @@
+COUNTING SORT
+
+Counting sort is used to sort integers that are known to be nonnegative
+and have an upper bound (cannot be larger than some value).
+
+counting_sort(A):
+  // A is an array of integers indexed from 0 to A.size()-1.
+  // We must know ahead of time (or pre-compute it here) the largest possible
+  // integer in the collection (MAX_INT).
+
+  Create a vector/array indexed from 0 to MAX_INT, called count[0..MAX_INT],
+    with all elements initialized to zero.
+
+  for i = 0 to A.size()-1:
+    count[A[i]]++		// count the number of items each item appears
+
+  nextpos = 0
+  for i = 0 to MAX_INT:		// distribute the items back into A
+    for j = 0 to count[i]
+      A[nextpos] = i
+      nextpos++
+
+
+RADIX SORT
+
+Radix sort is used to sort integers that are always known to be nonnegative
+and have an upper bound (cannot be larger than some value).  Can be used to sort
+strings as well (26 buckets).
+
+radix_sort(A):
+  // A is an array of integers indexed from 0 to A.size()-1.
+  // We must know ahead of time (or pre-compute it here) the number of digits 
+  // in the largest possible integer in the collection (NUM_DIGITS).
+  
+  Create a vector/array of 10 "buckets," where each bucket may hold multiple items
+    in the order in which they are inserted (e.g., each bucket can be a linked list).
+    Call this vector buckets[0..9].
+
+  for d = NUM_DIGITS down to 1:  // start at right-most digit in each integer
+    Clear all the buckets.
+
+    Distribute the values of A into the buckets:
+    for i = 0 to A.size()-1:
+      nextdigit = d'th digit of A[i] // assume zero if digit doesn't exist.
+      Add A[i] to the end of bucket[nextdigit]
+
+    Copy the buckets back to A:
+    nextpos = 0
+    for digit = 0 to 9:
+      copy elements of buckets[digit] into the next buckets[digit].size()
+        positions of A starting at position nextpos.
+      nextpos += buckets[digit].size()
+

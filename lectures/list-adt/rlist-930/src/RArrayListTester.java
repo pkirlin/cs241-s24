@@ -10,5 +10,16 @@ public class RArrayListTester {
         System.out.println(mylist);
         mylist.append(40);
         System.out.println(mylist);
+        mylist.append(50);
+        System.out.println(mylist);
+        mylist.append(60);
+        System.out.println(mylist);
+        mylist.append(70);
+        System.out.println(mylist);
+        mylist.prepend(80);
+        System.out.println(mylist);
+        mylist.set(4, 1000);
+        System.out.println(mylist);
+        System.out.println("The item at index 4 is " + mylist.get(4));
     }
 }
