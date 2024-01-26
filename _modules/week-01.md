@@ -31,4 +31,4 @@ Tue, Jan 23
 Thu, Jan 25
 : **Finish ArrayList, start big-oh**  
   [9:30 recording](https://rhodes.box.com/s/wu61exrfcjplqse7cv1ffqtspxgs7xie) | [9:30 whiteboard](lectures/list-adt/day2-whiteboard-930.pdf) | [9:30 code](https://rhodes.box.com/s/reozr6kuqg8rlualulb0xphm2pj5srnn) | 9:30 slides   
-  [11:00 recording](https://rhodes.box.com/s/6ba5ipczmqbmoh4sx24aiaaalfdaqq5n) | [11:00 whiteboard]((lectures/list-adt/day2-whiteboard-930.pdf) | [11:00 code](https://rhodes.box.com/s/uoi2p9wqvbox684j4oi8yu10ejhdrvhn) | 11:00 slides
+  [11:00 recording](https://rhodes.box.com/s/6ba5ipczmqbmoh4sx24aiaaalfdaqq5n) | [11:00 whiteboard](lectures/list-adt/day2-whiteboard-930.pdf) | [11:00 code](https://rhodes.box.com/s/uoi2p9wqvbox684j4oi8yu10ejhdrvhn) | 11:00 slides
