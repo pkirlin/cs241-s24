@@ -5,7 +5,7 @@ parent: Projects
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-# CS 142 Project 6: Large Integers
+# CS 241 Project 1: Large Integers
 {: .no_toc }
 
 1. TOC
