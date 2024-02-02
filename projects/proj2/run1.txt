@@ -1,0 +1,89 @@
+How many cards? 5
+
+Deck: [ 5 3 1 2 4 ]
+Holding: (none)
+
+Menu:
+1. Rotate left
+2. Rotate right
+3. Remove first card
+4. Remove last card
+5. Add first card
+6. Add last card
+Choice: 1
+
+Deck: [ 3 1 2 4 5 ]
+Holding: (none)
+
+Menu:
+1. Rotate left
+2. Rotate right
+3. Remove first card
+4. Remove last card
+5. Add first card
+6. Add last card
+Choice: 3
+
+Deck: [ 1 2 4 5 ]
+Holding: 3
+
+Menu:
+1. Rotate left
+2. Rotate right
+3. Remove first card
+4. Remove last card
+5. Add first card
+6. Add last card
+Choice: 2
+
+Deck: [ 5 1 2 4 ]
+Holding: 3
+
+Menu:
+1. Rotate left
+2. Rotate right
+3. Remove first card
+4. Remove last card
+5. Add first card
+6. Add last card
+Choice: 2
+
+Deck: [ 4 5 1 2 ]
+Holding: 3
+
+Menu:
+1. Rotate left
+2. Rotate right
+3. Remove first card
+4. Remove last card
+5. Add first card
+6. Add last card
+Choice: 6
+
+Deck: [ 4 5 1 2 3 ]
+Holding: (none)
+
+Menu:
+1. Rotate left
+2. Rotate right
+3. Remove first card
+4. Remove last card
+5. Add first card
+6. Add last card
+Choice: 1
+
+Deck: [ 5 1 2 3 4 ]
+Holding: (none)
+
+Menu:
+1. Rotate left
+2. Rotate right
+3. Remove first card
+4. Remove last card
+5. Add first card
+6. Add last card
+Choice: 1
+
+Deck: [ 1 2 3 4 5 ]
+Holding: (none)
+You win!
