@@ -29,7 +29,7 @@ it.
 
 ## Getting started
 
-- Download the starter code here.
+- Download the starter code [here](rotating-starter.zip).
 - Make a new Intellij project. Then copy the contents of this  `src`  folder exactly into the  `src`  folder in the new project.
 
 ## Introduction
