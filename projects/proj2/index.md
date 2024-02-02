@@ -2,15 +2,20 @@
 title: Project 2
 parent: Projects
 ---
-
 <script>
-window.MathJax = {
+MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
   }
 };
 </script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 
 # CS 241 Project 2: Rotating ArrayLists
 {: .no_toc }
