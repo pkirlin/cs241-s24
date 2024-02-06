@@ -89,7 +89,7 @@ PROGRAMMER'S PERSPECTIVE:           |  USER'S PERSPECTIVE:
                                     |
  [0]  [1]  [2]  [3]                 |  [0]  [1]  [2]  [3]   
 ---------------------               | ---------------------  
-| 10 | 20 | 30 | 40 |   offset=1    | | 20 | 30 | 40 | 50 |
+| 10 | 20 | 30 | 40 |   offset=1    | | 20 | 30 | 40 | 10 |
 ---------------------               | --------------------- 
 ```
 This configuration, with an offset of 1 but the same array contents, implies that while the contents of the array have not changed from the programmer's perspective, the 
