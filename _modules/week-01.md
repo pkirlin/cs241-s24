@@ -41,7 +41,7 @@ Tue, Jan 31
 
 Thu, Feb 1
 : **Recursive big-oh, begin linked lists**  
-  [Handout](lectures/big-oh/recurrence.pdf)  
+  [Recursive big-oh handout](lectures/big-oh/recurrence.pdf)  
   [Reading](https://rhodes.box.com/s/e9edx6ebgw4ipm61cl907trljwahk380) (Singly-linked lists)  
   [Project 2](projects/proj2), due Feb 13
   
