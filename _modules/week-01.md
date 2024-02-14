@@ -45,6 +45,17 @@ Thu, Feb 1
   [Reading](https://rhodes.box.com/s/e9edx6ebgw4ipm61cl907trljwahk380) (Singly-linked lists)  
   [Project 2](projects/proj2), due Feb 13
   
+Tue, Feb 6
+: **Singly-linked lists**  
+
+Thu, Feb 8
+: **Doubly-linked lists**  
+  [Reading](https://rhodes.box.com/s/0hnefr3dgk936tldg9wjh9nxwr11r6a5) (Doubly-linked lists)  
+  [Homework 2](homework/hw2/hw2.pdf), due Feb 15 on paper
+  
+Tue, Feb 13
+: **Stacks, queues, quadratic sorting**  
+  
 <!--
 
 Tue, Month 2

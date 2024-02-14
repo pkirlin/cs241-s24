@@ -144,10 +144,12 @@ Here are the methods you must write, along with their running times that you mus
 stick to.
 
 - toString() - $O(n)$: This will be very similar to the RArrayList toString(), except it must take offset into account.
-- size()/get()/set() - $O(1)$: Each of these will be very similar to the RArrayList versions, except they must take offset into account.
+- size()/get()/set() - $O(1)$: Each of these will be very similar to the RArrayList versions, except they must take offset into account (except size()).
 - rotateLeft()/rotateRight() - $O(1)$: You can write these by modifying the offset variable.  Do not let offset become negative or get larger than size-1.
-- equals() - $O(n)$: Similar to RArrayList's version, but you must take offset into account, because you can have two RotatingArrayLists that are equal from the user's 
-perspective, but the data[] arrays are different.
+- equals() - $O(n)$: This method should return `true` if any only if the two RotatingArrayLists contain the same elements from the user's 
+perspective.  This is slightly tricky because the two underlying data arrays might not be identical, even though the user would see same items 
+in the list.  For instance, a data array of `[10, 20]` with an offset of 0 would appear identical (to the user) as a data array of `[20, 10]` 
+with an offset of 1.
 - append()/prepend()/removeFirst()/removeLast - $O(n)$: This where you will spend most of your time on the project.  append/prepend are slightly more complicated than in 
 RArrayList because if the offset is in the middle of the data array, you may only need to shift *some* of the elements in the array, not all.  removeFirst and removeLast, as 
 well, might require only shifting some of the array.
