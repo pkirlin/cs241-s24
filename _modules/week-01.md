@@ -81,7 +81,7 @@ Tue, Mar 5
 
 Thu, Mar 7
 : **Hashing**  
-  [Reading](https://rhodes.box.com/s/a3jk5a95msi8w5npdwoqsu05jh313uf8) (Hashing)  
+  [Reading](https://rhodes.box.com/s/a3jk5a95msi8w5npdwoqsu05jh313uf8) (Hashing)   
   [Project 4](projects/proj3), due Mar 26  
   [Homework 3](homework/hw3/hw3.pdf), due Mar 21 on paper
 
