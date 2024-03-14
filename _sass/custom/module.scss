@@ -45,7 +45,8 @@
       @extend %module-item;
       border-top: $border $border-color;
       font-weight: normal;
-      text-align: right; white-space: nowrap;
+      text-align: right; 
+      white-space: nowrap;
 
       +dd {
         border-top: $border $border-color;
