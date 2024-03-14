@@ -55,6 +55,83 @@ Thu, Feb 8
   
 Tue, Feb 13
 : **Stacks, queues, quadratic sorting**  
+  [Reading](https://rhodes.box.com/s/ygehchmn8m7c5hzaneowzmhb6nqe2uj9) (Quadratic sorting)
+
+Thu, Feb 15
+: **Finish quadrating sorting**  
+  [Project 3](projects/proj3), due Mar 4
+
+Tue, Feb 20
+: **Midterm I**
+
+Thu, Feb 22
+: **Set/Map abstract data types**  
+  [Reading](https://rhodes.box.com/s/lr88jmz6ok8eyfc97jrilsmn5fmm93a8) (Set/Map ADTs)
+
+Tue, Feb 27
+: **Trees and traversals**  
+  [Reading](https://rhodes.box.com/s/ug21aeha2rbrbd4ovybuty3k5anqe6gl) (General trees)
+
+Thu, Feb 29
+: **Binary search trees**  
+  [Reading](https://rhodes.box.com/s/3uvthh6s7uoahmwyu1vi6wlo2at1e55g) (Binary search trees)
+
+Tue, Mar 5
+: **Binary search trees**
+
+Thu, Mar 7
+: **Hashing**  
+  [Reading](https://rhodes.box.com/s/a3jk5a95msi8w5npdwoqsu05jh313uf8) (Hashing)
+  [Project 4](projects/proj3), due Mar 26  
+  [Homework 3](homework/hw3/hw3.pdf), due Mar 21 on paper
+
+Tue, Mar 12
+: Spring break
+
+Thu, Mar 14
+: Spring break
+
+Tue, Mar 19
+: **Hashing**
+
+Thu, Mar 21
+: **Mergesort**
+
+Tue, Mar 26
+: **Quicksort**
+
+Thu, Mar 28
+: Easter break
+
+Tue, Apr 2
+: **Review/catchup**
+
+Thu, Apr 4
+: **Midterm II**
+
+Tue, Apr 9
+: **Graphs**
+
+Thu, Apr 11
+: **Graph implementations**
+
+Tue, Apr 16
+: **Dijkstra's algorithm**
+
+Thu, Apr 18
+: **Breadth-first search, depth-first search**
+
+Tue, Apr 23
+: **Priority queues, heaps**
+
+Thu, Apr 25
+: **Wrapup**
+
+
+
+
+
+
   
 <!--
 
