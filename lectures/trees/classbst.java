@@ -152,7 +152,7 @@ public class BST {
             root = subtree;
         else if (parent.left == curr)   // Deleting parent's left child.
             parent.left = subtree;
-        else                            // Deleting parent's left child.
+        else                            // Deleting parent's right child.
             parent.right = subtree;
 
         return true; // successful deletion.
