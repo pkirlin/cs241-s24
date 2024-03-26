@@ -82,5 +82,8 @@ def main():
 	#print("final array", x)
 	#print()
 
-
+	x=[44,75,23,43,55,12,64,77,33]
+	quicksort(x,0,len(x)-1)
+	print("final array", x)
+	print()
 main()
