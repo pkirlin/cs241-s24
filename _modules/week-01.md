@@ -3,7 +3,7 @@ title: ""
 ---
 
 Thu, Jan 11
-: **Introductions**  
+: **Introduction**  
 
 Tue, Jan 16
 : *Snow day*  
