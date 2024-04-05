@@ -1,6 +1,32 @@
-# COMP 241: Project 5
+---
+title: Project 5
+parent: Projects
+---
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 
-## Autocomplete
+
+# CS 241 Project 5: Autocomplete
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+**Reminder:** Everything in this project must be your own work.  If you include any code that was not invented by you, you must give a 
+citation for 
+it.
+
 
 💾   [**Download starter code**](proj5-starter.zip)
 
