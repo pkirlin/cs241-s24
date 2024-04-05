@@ -167,6 +167,25 @@ Feel free to play around with the GUI.
 
 Look for the green check marks above, and make sure your output matches mine for those tests.
 
+## At the end of the project
+
+-   As you are preparing to submit the project, please prepare a text file (`.txt`, pdf, or Word doc is fine) answering the following 
+questions:
+    1.  What bugs and conceptual difficulties did you encounter? How did you overcome them? What did you learn?
+    2.  Describe whatever help (if any) that you received. Don’t include readings, lectures, and exercises, but do include any help 
+from other sources, such as websites or 
+people (including classmates and friends) and attribute them by name.
+    3.  Describe any serious problems you encountered while writing the program.
+    4.  Did you do any of the challenges (see below)? If so, explain what you did.
+    5.  List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and 
+whether you enjoyed doing it.
+-   Please also add a comment at the top of your program stating your name and a pledge that you have followed the honor code and 
+collaboration policy for this project. This 
+can be as simple as writing “**I have neither given nor received unauthorized aid on this program.**” You can find the collaboration 
+policy on the syllabus.
+-   Remember, projects will be graded not only on correctness, but also appropriateness and efficiency of the algorithms you choose, 
+and on coding style.
+
 ## Submitting your code
 
 **Please, please, please** before submitting, make sure that in `AutocorrectDemo.java`, the call to `testAutoCorrect` is uncommented (because I will run this function to test your code).  It would also be helpful if you commented out the two calls to the window code that opens the GUI (since I will not use that to test your code).
