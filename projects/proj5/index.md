@@ -27,8 +27,12 @@ MathJax = {
 citation for 
 it.
 
+## Getting started
 
-💾   [**Download starter code**](proj5-starter.zip)
+- Download the starter code 💾 [here](proj5-starter.zip).
+- Make a new Intellij project. Then copy the contents of this  `src`  folder exactly into the  `src`  folder in the new project. Do not 
+"nest" the `src` folders inside each other!
+
 
 ![demo](demo.gif)
 
