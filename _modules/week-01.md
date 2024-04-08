@@ -95,28 +95,33 @@ Tue, Mar 19
 : **Hashing**
 
 Thu, Mar 21
-: **Mergesort**
+: **Mergesort**  
+  [Reading](https://rhodes.box.com/s/77acwt2ii175jp6lkyfvzzdppkdr0z1f) (Mergesort)   
 
 Tue, Mar 26
-: **Quicksort**
+: **Quicksort**  
+  [Reading](https://rhodes.box.com/s/bhl0chfajgxhoii22nnqkkgs632j4se7) (Quicksort)   
 
 Thu, Mar 28
 : Easter break
 
 Tue, Apr 2
-: **Review/catchup**
+: **Review/catchup**  
 
 Thu, Apr 4
-: **Midterm II**
+: **Midterm II**  
+  [Project 5](projects/proj5), due Apr 16  
 
 Tue, Apr 9
-: **Graphs**
+: **Graphs**  
+  [Reading](https://rhodes.box.com/s/vpgubmzkhc2nyl5m808e5pdstfgt9tbz) (Graphs)  
 
 Thu, Apr 11
 : **Graph implementations**
 
 Tue, Apr 16
-: **Dijkstra's algorithm**
+: **Dijkstra's algorithm**  
+  [Reading](https://rhodes.box.com/s/pp4pwn50elcvjddjh0djlrxyregoitsu) (Dijkstra's algorithm)  
 
 Thu, Apr 18
 : **Breadth-first search, depth-first search**
