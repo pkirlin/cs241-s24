@@ -101,6 +101,7 @@ Thu, Mar 21
 Tue, Mar 26
 : **Quicksort**  
   [Reading](https://rhodes.box.com/s/bhl0chfajgxhoii22nnqkkgs632j4se7) (Quicksort)   
+  [Homework 4](homework/hw4/hw4.pdf), due Apr 2 on paper
 
 Thu, Mar 28
 : Easter break
