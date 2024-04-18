@@ -27,7 +27,7 @@ MathJax = {
 citation for 
 it.
 
-## Getting started
+### Getting started
 
 - Download the starter code 💾 [here](proj6-starter.zip).
 - Make a new Intellij project. Then copy the contents of this  `src`  folder exactly into the  `src`  folder in the new project. Do not 
