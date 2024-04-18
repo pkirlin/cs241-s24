@@ -1,8 +1,38 @@
-# COMP 241 Project 6
+---
+title: Project 6
+parent: Projects
+---
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 
-## Dijkstra's algorithm
 
-💾 [**Download starter code**](proj6-starter.zip)
+# CS 241 Project 6: Dijkstra's Algorithm
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+**Reminder:** Everything in this project must be your own work.  If you include any code that was not invented by you, you must give a 
+citation for 
+it.
+
+## Getting started
+
+- Download the starter code 💾 [here](proj6-starter.zip).
+- Make a new Intellij project. Then copy the contents of this  `src`  folder exactly into the  `src`  folder in the new project. Do not 
+"nest" the `src` folders inside each other!
+
 
 In this project, we will put all of our pieces from this semester together.  Well, at least some of them.  You will write a program implementing a classic algorithm, picking the best data structures to use in the code.  You will also get experience using some built-in Java data structures we haven't used yet.
 
