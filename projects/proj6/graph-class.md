@@ -1,3 +1,21 @@
+---
+title: The Graph Class
+parent: Project 6
+---
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 ## The Graph Class
 
 This graph class represents a directed, weighted graph.  It can be used as an undirected graph simply by adding each edge in both directions.

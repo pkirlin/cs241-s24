@@ -1,3 +1,21 @@
+---
+title: The Java Collection Framework
+parent: Project 6
+---
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 # The Java Collection Framework
 
 The Java Collections Framework is an entire hierarchy of data structures consisting of Lists, Sets, Maps, Stacks, Queues, and a few other data structures.  Here are the highlights, including a few we've used in past projects, and a few new ones for this project.
