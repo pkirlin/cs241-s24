@@ -38,13 +38,13 @@ In this project, we will put all of our pieces from this semester together.  Wel
 
 ### Primer on the Java Collection Framework
 
-For this project, you will be using a number of classes in the Java Collections Framework, which contains all of the basic data structures programmers commonly use in their programs, including a variety of Lists, Sets, and Maps.  You have already used ArrayLists, LinkedLists, and HashSets in previous projects; for this project, you will make use of the built-in Java Maps, known as HashMap (implemented with hash tables) and TreeMap (implemented with a variety of a BST).  If you are not already familiar with these, [you can read this description of how they work](java-collections.html).
+For this project, you will be using a number of classes in the Java Collections Framework, which contains all of the basic data structures programmers commonly use in their programs, including a variety of Lists, Sets, and Maps.  You have already used ArrayLists, LinkedLists, and HashSets in previous projects; for this project, you will make use of the built-in Java Maps, known as HashMap (implemented with hash tables) and TreeMap (implemented with a variety of a BST).  If you are not already familiar with these, [you can read this description of how they work](java-collections).
 
 ### Project description
 
 You will implement Dijkstra's algorithm for this project.  Your project will read in a description of a graph from a file, which may be directed or undirected, and then run Dijkstra's algorithm to compute the shortest path between two vertices specified in the file.
 
-To make your life easier, the graph data structure and priority queue data structure are already written for you.  Read about the [graph](graph-class.html) and the [priority queue](pq-class.html) classes.
+To make your life easier, the graph data structure and priority queue data structure are already written for you.  Read about the [graph](graph-class) and the [priority queue](pq-class) classes.
 
 ### Part A: File Reading
 
@@ -85,7 +85,7 @@ In this part, you will implement Dijkstra's algorithm, which we discussed in cla
 
   What you need to do is decide whether to use a `HashMap` or a `TreeMap` for each of these maps.  Which would be better here?  Using a hash table or a binary search tree?  (Either will work fine, but you should think about this.)
 
-- Next, translate the pseudocode into Java code.  Unlike some previous projects, this code cannot be cut-and-pasted; you will need to think about how each line should be expressed in Java.  Refer back to the details of the [graph class](graph-class.html) and the [priority queue class](pq-class.html), and how [Java maps](java-collections.html) work.
+- Next, translate the pseudocode into Java code.  Unlike some previous projects, this code cannot be cut-and-pasted; you will need to think about how each line should be expressed in Java.  Refer back to the details of the [graph class](graph-class) and the [priority queue class](pq-class), and how [Java maps](java-collections) work.
 
 - Your code *must* output each vertex as it is visited (removed from the priority queue), and it also *must* report all changes to the `dist` map.  I suggest, however, using additional print statements to help debug.  What I did was I made a `DEBUG` constant that triggers extra output when it's set to `true`.  See my sample output below for examples of this.
 
