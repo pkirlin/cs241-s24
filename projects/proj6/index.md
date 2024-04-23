@@ -121,6 +121,25 @@ I will be checking your output against the "without debugging" output.  Everythi
 - `graph3.txt`: [without debugging](graph3-output.txt) | [with debugging](graph3-output-debug.txt)
 - `graph4.txt`: [without debugging](graph4-output.txt) | [with debugging](graph4-output-debug.txt)
 
+## At the end of the project
+
+-   As you are preparing to submit the project, please prepare a text file (`.txt`, pdf, or Word doc is fine) answering the following 
+questions:
+    1.  What bugs and conceptual difficulties did you encounter? How did you overcome them? What did you learn?
+    2.  Describe whatever help (if any) that you received. Don’t include readings, lectures, and exercises, but do include any help 
+from other sources, such as websites or 
+people (including classmates and friends) and attribute them by name.
+    3.  Describe any serious problems you encountered while writing the program.
+    4.  List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and 
+whether you enjoyed doing it.
+-   Please also add a comment at the top of your program stating your name and a pledge that you have followed the honor code and 
+collaboration policy for this project. This 
+can be as simple as writing “**I have neither given nor received unauthorized aid on this program.**” You can find the collaboration 
+policy on the syllabus.
+-   Remember, projects will be graded not only on correctness, but also appropriateness and efficiency of the algorithms you choose, 
+and on coding style.
+
+
 ### Turning in the project
 
 Upload `DijkstrasAlgorithm.java`.  No other files are needed.

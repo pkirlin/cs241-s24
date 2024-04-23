@@ -38,9 +38,9 @@ def main():
 	#print()
 
 	x=[5, 2, 9, 10, 7, 3, 4, 6, 1]
-	quicksort(x, 0, 8)
-	print("final x", x)
-	print()
+	#quicksort(x, 0, 8)
+	#print("final x", x)
+	#print()
 
 	x=[54, 26, 93, 17, 77, 31, 44, 55, 20]
 	#quicksort(x, 0, 8)
@@ -58,12 +58,12 @@ def main():
 	#print()
 
 	x=[6,	10,	3,	2,	12, 14,	11,	5]
-	#quicksort(x,0,7)
-	#print("final array", x)
-	#print()
+	quicksort(x,0,7)
+	print("final array", x)
+	print()
 
-	x=[7,7,7,7,7,7,7]
-	#quicksort(x,0,6)
+	x=[1,2,3,4]
+	#quicksort(x,0,len(x)-1)
 	#print("final array", x)
 	#print()
 
@@ -77,13 +77,13 @@ def main():
 	#print("final array", x)
 	#print()
 
-	x=[20,21,22,23,1,2,3]
+	x=[5,8,4,2,6,1,7,3]
 	#quicksort(x,0,len(x)-1)
 	#print("final array", x)
 	#print()
 
 	x=[44,75,23,43,55,12,64,77,33]
-	quicksort(x,0,len(x)-1)
-	print("final array", x)
-	print()
+	#quicksort(x,0,len(x)-1)
+	#print("final array", x)
+	#print()
 main()
